@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+}
+button{
+  margin: 0 10px;
+  padding: 3px 22px;
+  border: 0;
+  border-radius: 50px;
+  background: rgb(136, 119, 7);
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  align-items: center;
+}
+#btnLike{
+  padding-bottom: 11px;
+}
+#btnDislike{
+  padding-bottom: 8px;
+  padding-top: 6px;
+}
+span{
+  font-size: 2rem;
+  color: red;
+  font-weight: 700;
+}
